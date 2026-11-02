@@ -1,0 +1,18 @@
+:root {
+
+  --portfolio-purple: #6600cc;
+  --portfolio-purple-dark: #4d0099;
+}
+
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #ffffff;
+    color: #212529;
+    -webkit-font-smoothing: antialiased;
+  }

@@ -1,0 +1,189 @@
+  /* Estilos personalizados complementarios a Bootstrap para fidelidad al diseño original */
+
+
+  /* Navbar morado */
+  .portfolio-navbar {
+    background-color: var(--portfolio-purple);
+  }
+
+
+    .contact-info {
+      font-size: 0.78rem;
+      font-weight: 400;
+      opacity: 0.95;
+      line-height: 1.35;
+    }
+
+
+    .nav-link-custom {
+      font-size: 1.05rem;
+      transition: opacity 0.2s ease, text-decoration 0.2s ease;
+    }
+
+
+    .nav-link-custom:hover {
+      opacity: 0.85;
+      text-decoration: underline;
+    }
+
+
+    /* Sección About Me */
+    .avatar-illustration {
+      max-width: 280px;
+    }
+
+
+    .section-main-title {
+      color: var(--portfolio-purple);
+      font-size: 2.75rem;
+      letter-spacing: -0.5px;
+    }
+
+
+    .about-description {
+      color: #6c757d;
+      text-align: justify;
+    }
+
+
+      /* Títulos de sección en morado */
+      .section-title {
+        color: var(--portfolio-purple);
+        font-size: 2.25rem;
+      }
+
+
+      /* Tarjetas de Habilidades (SkillCard) */
+      .skill-card {
+        max-width: 215px;
+        margin: 0 auto;
+        border: 1px solid #9e9e9e !important;
+        border-radius: 6px !important;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.28);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+      }
+
+        .skill-card:hover {
+          transform: translateY(-3px);
+          box-shadow: 0 6px 14px rgba(0, 0, 0, 0.32);
+        }
+
+        .skill-icon-wrapper {
+          height: 46px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+
+        .skill-name {
+          font-size: 0.85rem;
+          color: #212529;
+        }
+
+
+        .skill-experience {
+          font-size: 0.9rem;
+          color: #212529;
+        }
+
+
+        /* Sección de Proyectos */
+        .project-description {
+          font-size: 0.95rem;
+          color: #212529;
+        }
+
+          .project-divider {
+            position: relative;
+          }
+
+          .project-divider::after {
+            content: '';
+            display: block;
+            width: 78%;
+            height: 1px;
+            background-color: #cccccc;
+            margin: 0.35rem auto 0;
+          }
+
+            /* Tarjetas de Recomendaciones */
+            .recommendation-card {
+              border: 1.5px solid #8c8c8c !important;
+              border-radius: 11px !important;
+              background-color: #ffffff;
+            }
+
+            .recommendation-text {
+              font-size: 0.9rem;
+              line-height: 1.45;
+              color: #212529;
+            }
+
+              .quote-mark {
+                font-weight: bold;
+                font-size: 1.05rem;
+              }
+
+
+            /* Formulario Leave a Recommendation */
+            .leave-rec-title {
+              color: #212529;
+              font-size: 1.45rem;
+            }
+
+
+              .custom-form-control {
+                border: 1px solid #bfbfbf;
+                border-radius: 3px;
+                font-size: 0.9rem;
+              }
+
+              .custom-form-control:focus {
+                border-color: var(--portfolio-purple);
+                box-shadow: 0 0 0 0.2rem rgba(102, 0, 204, 0.2);
+              }
+
+
+            .submit-rec-btn {
+              border: 1.5px solid var(--portfolio-purple) !important;
+              color: var(--portfolio-purple) !important;
+              background-color: #ffffff !important;
+              font-weight: 600 !important;
+              border-radius: 6px !important;
+              min-width: 160px;
+              transition: all 0.2s ease;
+            }
+
+
+              .submit-rec-btn:hover {
+                background-color: var(--portfolio-purple) !important;
+                color: #ffffff !important;
+              }
+
+
+                /* Botón Scroll to Top en el Footer */
+                .footer-scroll-container {
+                  position: relative;
+                  min-height: 64px;
+                }
+
+
+                .scroll-top-btn {
+                  position: fixed;
+                  bottom: 24px;
+                  right: 28px;
+                  width: 44px;
+                  height: 44px;
+                  background-color: var(--portfolio-purple) !important;
+                  border-color: var(--portfolio-purple) !important;
+                  color: #ffffff !important;
+                  box-shadow: 0 3px 8px rgba(102, 0, 204, 0.35);
+                  z-index: 1030;
+                }
+
+
+                .scroll-top-btn:hover {
+                  background-color: var(--portfolio-purple-dark) !important;
+                  border-color: var(--portfolio-purple-dark) !important;
+                }
